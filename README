@@ -1,0 +1,53 @@
+python-decorator
+------------------------------------------
+The aim of the Python decorator module it to simplify the usage of 
+decorators for the average programmer, and to popularize decorators 
+usage giving examples of useful decorators, such as memoize, tracing, 
+redirecting_stdout, locked, etc.
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  python-2.4.3-1
+
+Build requirements:
+  cygwin-1.5.24-2
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gcc-core-3.4.4-3
+  python-2.4.3-1
+  python-setuptools-0.6c5-1
+
+Canonical website:
+  http://www.phyast.pitt.edu/~micheles/python/documentation.html
+
+Canonical download:
+  http://www.phyast.pitt.edu/~micheles/python/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-decorator-2.0.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-decorator-2.0.1-X.cygport all
+
+This will create:
+  /usr/src/python-decorator-2.0.1-X-src.tar.bz2
+  /usr/src/python-decorator-2.0.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+
+------------------
+
+Port Notes:
+
+----- version 2.0.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
