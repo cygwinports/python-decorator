@@ -1,5 +1,5 @@
 category: Python
-requires: cygwin python
+requires: python
 sdesc: "Python decorator module"
 ldesc: "The aim of the Python decorator module it to simplify the usage 
 of decorators for the average programmer, and to popularize decorators 

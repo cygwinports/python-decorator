@@ -1,6 +1,0 @@
-inherit distutils
-
-DESCRIPTION="Python decorator module"
-HOMEPAGE="http://www.phyast.pitt.edu/~micheles/python/documentation.html"
-SRC_URI="http://www.phyast.pitt.edu/~micheles/python/${P#python-}.zip"
-SRC_DIR=.
