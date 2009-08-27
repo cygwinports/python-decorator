@@ -9,8 +9,7 @@ Runtime requirements:
   python-2.5.4-10
 
 Build requirements:
-  binutils-20080624-2
-  cygport-0.9.6-1
+  cygport-0.9.9-1
   gcc4-core-4.3.2-2
   python-2.5.4-10
 
@@ -23,25 +22,25 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-decorator-3.0.1-X-src.tar.bz2
+  unpack python-decorator-3.1.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-decorator-3.0.1-X.cygport all
+  cygport ./python-decorator-3.1.2-X.cygport all
 
 This will create:
-  /usr/src/python-decorator-3.0.1-X-src.tar.bz2
-  /usr/src/python-decorator-3.0.1-X.tar.bz2
+  /usr/src/python-decorator-3.1.2-X-src.tar.bz2
+  /usr/src/python-decorator-3.1.2-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/lib/python2.5/site-packages/decorator-3.0.1-py2.5.egg-info/PKG-INFO
-  /usr/lib/python2.5/site-packages/decorator-3.0.1-py2.5.egg-info/SOURCES.txt
-  /usr/lib/python2.5/site-packages/decorator-3.0.1-py2.5.egg-info/dependency_links.txt
-  /usr/lib/python2.5/site-packages/decorator-3.0.1-py2.5.egg-info/not-zip-safe
-  /usr/lib/python2.5/site-packages/decorator-3.0.1-py2.5.egg-info/top_level.txt
+  /usr/lib/python2.5/site-packages/decorator-3.1.2-py2.5.egg-info/PKG-INFO
+  /usr/lib/python2.5/site-packages/decorator-3.1.2-py2.5.egg-info/SOURCES.txt
+  /usr/lib/python2.5/site-packages/decorator-3.1.2-py2.5.egg-info/dependency_links.txt
+  /usr/lib/python2.5/site-packages/decorator-3.1.2-py2.5.egg-info/not-zip-safe
+  /usr/lib/python2.5/site-packages/decorator-3.1.2-py2.5.egg-info/top_level.txt
   /usr/lib/python2.5/site-packages/decorator.py
   /usr/lib/python2.5/site-packages/decorator.pyc
   /usr/lib/python2.5/site-packages/decorator.pyo
@@ -51,6 +50,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 3.1.2-1 -----
+Version bump.
 
 ----- version 3.0.1-1 -----
 Initial release for Cygwin 1.7.
