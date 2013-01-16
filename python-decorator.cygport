@@ -1,5 +1,8 @@
 inherit distutils
 
+NAME="python-decorator"
+VERSION=3.4.0
+RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python decorator module"
 DESCRIPTION="The aim of the Python decorator module it to simplify the
