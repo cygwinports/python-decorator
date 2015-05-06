@@ -1,7 +1,7 @@
-inherit distutils
+inherit python-distutils
 
 NAME="python-decorator"
-VERSION=3.4.0
+VERSION=3.4.2
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python decorator module"
@@ -9,3 +9,5 @@ DESCRIPTION="The aim of the Python decorator module it to simplify the
 usage of decorators for the average programmer, and to popularize
 decorators usage giving examples of useful decorators, such as memoize,
 tracing, redirecting_stdout, locked, etc."
+
+ARCH=noarch
