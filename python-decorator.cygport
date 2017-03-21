@@ -1,7 +1,7 @@
-inherit python-distutils
+inherit python-wheel
 
 NAME="python-decorator"
-VERSION=3.4.2
+VERSION=4.0.11
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python decorator module"
