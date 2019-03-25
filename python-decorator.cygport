@@ -1,7 +1,7 @@
 inherit python-wheel
 
 NAME="python-decorator"
-VERSION=4.0.11
+VERSION=4.4.0
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python decorator module"
